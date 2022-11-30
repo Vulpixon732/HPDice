@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.AutoSettings.cppa7.o",
+		"Module.AutoSettings.cppa8.o",
+		"Module.AutoSettings.gen.cppa7.o",
+		"Module.AutoSettings.gen.cppa8.o"
+	]
+}

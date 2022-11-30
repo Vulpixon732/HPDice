@@ -1,0 +1,9 @@
+{
+	"BuildId": "17155196",
+	"Modules": 
+	{
+		"AutoSettings": "UE4Editor-AutoSettings.dll",
+		"AutoSettingsCore": "UE4Editor-AutoSettingsCore.dll",
+		"AutoSettingsInput": "UE4Editor-AutoSettingsInput.dll"
+	}
+}
