@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AUTOSETTINGS_SettingOption_generated_h
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_Misc_SettingOption_h_10_GENERATED_BODY \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_Misc_SettingOption_h_10_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSettingOption_Statics; \
 	AUTOSETTINGS_API static class UScriptStruct* StaticStruct();
 
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> AUTOSETTINGS_API UScriptStruct* StaticStruct<struct FSettingOption>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_Misc_SettingOption_h
+#define CURRENT_FILE_ID HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_Misc_SettingOption_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

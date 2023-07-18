@@ -15,8 +15,8 @@ struct FInputMappingPreset;
 #endif
 #define AUTOSETTINGSINPUT_AutoSettingsPlayer_generated_h
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_SPARSE_DATA
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_RPC_WRAPPERS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_SPARSE_DATA
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_RPC_WRAPPERS \
 	virtual void SaveInputMappings_Implementation(FPlayerInputMappings InputMappings) {}; \
 	virtual bool GetInputMappings_Implementation(FPlayerInputMappings& InputMappings) const { return false; }; \
 	virtual FInputMappingPreset GetDefaultInputMappingPreset_Implementation() const { return FInputMappingPreset(); }; \
@@ -28,7 +28,7 @@ struct FInputMappingPreset;
 	DECLARE_FUNCTION(execGetUniquePlayerIdentifier);
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSaveInputMappings); \
 	DECLARE_FUNCTION(execGetInputMappings); \
@@ -36,7 +36,7 @@ struct FInputMappingPreset;
 	DECLARE_FUNCTION(execGetUniquePlayerIdentifier);
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_EVENT_PARMS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_EVENT_PARMS \
 	struct AutoSettingsPlayer_eventGetDefaultInputMappingPreset_Parms \
 	{ \
 		FInputMappingPreset ReturnValue; \
@@ -62,8 +62,8 @@ struct FInputMappingPreset;
 	};
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_CALLBACK_WRAPPERS
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_STANDARD_CONSTRUCTORS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_CALLBACK_WRAPPERS
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	AUTOSETTINGSINPUT_API UAutoSettingsPlayer(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAutoSettingsPlayer) \
@@ -76,7 +76,7 @@ private: \
 public:
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_ENHANCED_CONSTRUCTORS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	AUTOSETTINGSINPUT_API UAutoSettingsPlayer(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -89,7 +89,7 @@ public: \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAutoSettingsPlayer)
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_GENERATED_UINTERFACE_BODY() \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_GENERATED_UINTERFACE_BODY() \
 private: \
 	static void StaticRegisterNativesUAutoSettingsPlayer(); \
 	friend struct Z_Construct_UClass_UAutoSettingsPlayer_Statics; \
@@ -98,22 +98,22 @@ public: \
 	DECLARE_SERIALIZER(UAutoSettingsPlayer)
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_GENERATED_BODY_LEGACY \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_GENERATED_BODY_LEGACY \
 		PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_GENERATED_UINTERFACE_BODY() \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_STANDARD_CONSTRUCTORS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_GENERATED_UINTERFACE_BODY() \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_STANDARD_CONSTRUCTORS \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_GENERATED_BODY \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_GENERATED_UINTERFACE_BODY() \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_ENHANCED_CONSTRUCTORS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_GENERATED_UINTERFACE_BODY() \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_INCLASS_IINTERFACE_NO_PURE_DECLS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_INCLASS_IINTERFACE_NO_PURE_DECLS \
 protected: \
 	virtual ~IAutoSettingsPlayer() {} \
 public: \
@@ -126,7 +126,7 @@ public: \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_INCLASS_IINTERFACE \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_INCLASS_IINTERFACE \
 protected: \
 	virtual ~IAutoSettingsPlayer() {} \
 public: \
@@ -139,28 +139,28 @@ public: \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_11_PROLOG \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_EVENT_PARMS
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_11_PROLOG \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_EVENT_PARMS
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_22_GENERATED_BODY_LEGACY \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_SPARSE_DATA \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_RPC_WRAPPERS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_CALLBACK_WRAPPERS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_INCLASS_IINTERFACE \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_SPARSE_DATA \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_RPC_WRAPPERS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_CALLBACK_WRAPPERS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_INCLASS_IINTERFACE \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_22_GENERATED_BODY \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_SPARSE_DATA \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_CALLBACK_WRAPPERS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_INCLASS_IINTERFACE_NO_PURE_DECLS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_SPARSE_DATA \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_CALLBACK_WRAPPERS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h_14_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -168,7 +168,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AUTOSETTINGSINPUT_API UClass* StaticClass<class UAutoSettingsPlayer>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h
+#define CURRENT_FILE_ID HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_AutoSettingsPlayer_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

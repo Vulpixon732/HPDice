@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AUTOSETTINGSINPUT_InputMappingLayout_generated_h
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_InputMappingLayout_h_11_GENERATED_BODY \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_InputMappingLayout_h_11_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInputMappingLayout_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> AUTOSETTINGSINPUT_API UScriptStruct* StaticStruct<struct FInputMappingLayout>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_InputMappingLayout_h
+#define CURRENT_FILE_ID HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_InputMappingLayout_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

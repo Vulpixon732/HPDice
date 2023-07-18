@@ -14,14 +14,14 @@ struct FAutoSettingData;
 #endif
 #define AUTOSETTINGS_SettingsManager_generated_h
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_14_GENERATED_BODY \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_14_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAutoSettingData_Statics; \
 	AUTOSETTINGS_API static class UScriptStruct* StaticStruct();
 
 
 template<> AUTOSETTINGS_API UScriptStruct* StaticStruct<struct FAutoSettingData>();
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_42_DELEGATE \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_42_DELEGATE \
 struct _Script_AutoSettings_eventOnSettingSaved_Parms \
 { \
 	FAutoSettingData SettingData; \
@@ -34,8 +34,8 @@ static inline void FOnSettingSaved_DelegateWrapper(const FMulticastScriptDelegat
 }
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_SPARSE_DATA
-#define HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_RPC_WRAPPERS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_SPARSE_DATA
+#define HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execApplySettingStatic); \
 	DECLARE_FUNCTION(execSaveSettingStatic); \
@@ -51,7 +51,7 @@ static inline void FOnSettingSaved_DelegateWrapper(const FMulticastScriptDelegat
 	DECLARE_FUNCTION(execGetValue);
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_RPC_WRAPPERS_NO_PURE_DECLS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execApplySettingStatic); \
 	DECLARE_FUNCTION(execSaveSettingStatic); \
@@ -67,7 +67,7 @@ static inline void FOnSettingSaved_DelegateWrapper(const FMulticastScriptDelegat
 	DECLARE_FUNCTION(execGetValue);
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_INCLASS_NO_PURE_DECLS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSettingsManager(); \
 	friend struct Z_Construct_UClass_USettingsManager_Statics; \
@@ -76,7 +76,7 @@ public: \
 	DECLARE_SERIALIZER(USettingsManager)
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_INCLASS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_INCLASS \
 private: \
 	static void StaticRegisterNativesUSettingsManager(); \
 	friend struct Z_Construct_UClass_USettingsManager_Statics; \
@@ -85,7 +85,7 @@ public: \
 	DECLARE_SERIALIZER(USettingsManager)
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_STANDARD_CONSTRUCTORS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USettingsManager(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USettingsManager) \
@@ -98,7 +98,7 @@ private: \
 public:
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_ENHANCED_CONSTRUCTORS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API USettingsManager(USettingsManager&&); \
@@ -109,31 +109,31 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USettingsManager)
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_PRIVATE_PROPERTY_OFFSET \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__IniFilename() { return STRUCT_OFFSET(USettingsManager, IniFilename); }
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_47_PROLOG
-#define HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_GENERATED_BODY_LEGACY \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_47_PROLOG
+#define HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_SPARSE_DATA \
-	HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_RPC_WRAPPERS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_INCLASS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_STANDARD_CONSTRUCTORS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_PRIVATE_PROPERTY_OFFSET \
+	HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_SPARSE_DATA \
+	HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_RPC_WRAPPERS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_INCLASS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_GENERATED_BODY \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_SPARSE_DATA \
-	HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_RPC_WRAPPERS_NO_PURE_DECLS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_INCLASS_NO_PURE_DECLS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_ENHANCED_CONSTRUCTORS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_PRIVATE_PROPERTY_OFFSET \
+	HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_SPARSE_DATA \
+	HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_RPC_WRAPPERS_NO_PURE_DECLS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_INCLASS_NO_PURE_DECLS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h_50_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -141,7 +141,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AUTOSETTINGS_API UClass* StaticClass<class USettingsManager>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h
+#define CURRENT_FILE_ID HPDice_Plugins_AutoSettings_Source_AutoSettings_Public_SettingsManager_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

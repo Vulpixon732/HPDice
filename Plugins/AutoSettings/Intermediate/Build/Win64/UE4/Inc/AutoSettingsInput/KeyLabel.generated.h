@@ -16,8 +16,8 @@ class UTexture;
 #endif
 #define AUTOSETTINGSINPUT_KeyLabel_generated_h
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_SPARSE_DATA
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_RPC_WRAPPERS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_SPARSE_DATA
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_RPC_WRAPPERS \
 	virtual ESlateVisibility GetDisplayNameVisibility_Implementation() const; \
 	virtual ESlateVisibility GetIconVisibility_Implementation() const; \
 	virtual FSlateBrush GetIconBrush_Implementation() const; \
@@ -32,7 +32,7 @@ class UTexture;
 	DECLARE_FUNCTION(execGetDisplayName);
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual ESlateVisibility GetDisplayNameVisibility_Implementation() const; \
 	virtual ESlateVisibility GetIconVisibility_Implementation() const; \
 	virtual FSlateBrush GetIconBrush_Implementation() const; \
@@ -47,7 +47,7 @@ class UTexture;
 	DECLARE_FUNCTION(execGetDisplayName);
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_EVENT_PARMS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_EVENT_PARMS \
 	struct KeyLabel_eventGetDisplayNameVisibility_Parms \
 	{ \
 		ESlateVisibility ReturnValue; \
@@ -74,8 +74,8 @@ class UTexture;
 	};
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_CALLBACK_WRAPPERS
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_INCLASS_NO_PURE_DECLS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_CALLBACK_WRAPPERS
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUKeyLabel(); \
 	friend struct Z_Construct_UClass_UKeyLabel_Statics; \
@@ -84,7 +84,7 @@ public: \
 	DECLARE_SERIALIZER(UKeyLabel)
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_INCLASS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUKeyLabel(); \
 	friend struct Z_Construct_UClass_UKeyLabel_Statics; \
@@ -93,7 +93,7 @@ public: \
 	DECLARE_SERIALIZER(UKeyLabel)
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_STANDARD_CONSTRUCTORS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UKeyLabel(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UKeyLabel) \
@@ -106,7 +106,7 @@ private: \
 public:
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_ENHANCED_CONSTRUCTORS \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UKeyLabel(UKeyLabel&&); \
@@ -117,33 +117,33 @@ public: \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UKeyLabel)
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_PRIVATE_PROPERTY_OFFSET
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_12_PROLOG \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_EVENT_PARMS
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_PRIVATE_PROPERTY_OFFSET
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_12_PROLOG \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_EVENT_PARMS
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_GENERATED_BODY_LEGACY \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_SPARSE_DATA \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_RPC_WRAPPERS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_CALLBACK_WRAPPERS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_INCLASS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_STANDARD_CONSTRUCTORS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_PRIVATE_PROPERTY_OFFSET \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_SPARSE_DATA \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_RPC_WRAPPERS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_CALLBACK_WRAPPERS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_INCLASS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_GENERATED_BODY \
+#define HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_SPARSE_DATA \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_CALLBACK_WRAPPERS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_INCLASS_NO_PURE_DECLS \
-	HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_ENHANCED_CONSTRUCTORS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_PRIVATE_PROPERTY_OFFSET \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_SPARSE_DATA \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_CALLBACK_WRAPPERS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_INCLASS_NO_PURE_DECLS \
+	HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -151,7 +151,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AUTOSETTINGSINPUT_API UClass* StaticClass<class UKeyLabel>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h
+#define CURRENT_FILE_ID HPDice_Plugins_AutoSettings_Source_AutoSettingsInput_Public_UI_KeyLabel_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

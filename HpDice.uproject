@@ -16,7 +16,7 @@
 		},
 		{
 			"Name": "EmailPlugin",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/88f228c5ad9d4288b6426754c0b3f3d1"
 		}
 	]
